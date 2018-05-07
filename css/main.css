@@ -71,6 +71,7 @@ body {
     /* border: 1px solid red;*/
      background-color: #d5e1df;     
      padding: 2px;
+     color: darkslategray;
  }
 
 
@@ -122,6 +123,17 @@ body {
     padding-bottom: 50px;
 }
 
+#work h2 {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 36px;
+    text-align: center;
+}
+
+#work h3 {
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+
 #work .half-width {
     margin-top: 20px;
     
@@ -166,6 +178,21 @@ body {
     margin: auto;
  }
 
- footer h4 {
+ footer .instagram img {
+    height: 50%;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
 
+ footer .linkedin img {
+    height: 50%;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+ footer h4 {
+    font-family: 'Lobster', cursive;
+    color: darkgrey;
+    
  }

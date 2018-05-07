@@ -1,0 +1,171 @@
+/****** BASE STYLES ******/
+
+body {
+    /** font-family: 'Source Sans Pro', sans-serif;***/
+ 
+ }
+ 
+ #about, #work, #contact {
+    /** height: 600px;**/
+ }
+ p {
+     font-size: 120%;
+ }
+ h1 {
+     font-size: 36px;
+ }
+ /****** GRID ******/
+ 
+ .full-width {
+     width: 1200px;
+     margin: 0 auto;
+ }
+ .half-width {
+     width: 600px;
+     float: left;
+     }
+ .third-width {
+     width: 400px;
+     float: left;
+}
+ .fourth-width {
+     width: 300px;
+     float: left;
+}
+ 
+ 
+ /****** HEADER ******/
+ header {
+    height: 170px;
+    clear: both;
+ }
+
+ .mytitle {
+    background-color: #d5e1df;
+    font-family: 'Lobster', cursive;
+    height: 150px;
+    text-align: center;
+    }
+
+ nav {
+     float: right;
+ }
+
+ .links {
+    background-color:  #b5e7a0;
+    height: 150px;
+ }
+
+ nav ul li {
+    display: inline-block;
+    padding-left: 15PX;
+    padding-right: 10px;
+    padding-top: 50px;
+
+ }
+
+ a {
+     text-decoration: none;
+     font-family: 'Ubuntu', sans-serif;
+     font-size: 120%;
+    /* border: 1px solid red;*/
+     background-color: #d5e1df;     
+     padding: 2px;
+ }
+
+
+ /*******Main********/
+ /******AboutMe******/
+ #aboutme {
+     background-color: #b5e7a0;
+     clear: both;
+     font-family: 'Signika', sans-serif;
+     
+ }
+ .photos, .quotes, .skills {
+     height: 400px;
+ }
+
+  .photos img {
+      border-radius: 50%;
+      margin-top: 10px;
+      
+  }
+
+  #aboutme .quotes {
+      background-color: #b5e7a0;
+      background: linear-gradient(to right, #b5e7a0, white);
+  }
+
+  #aboutme .quotes h2 {
+      padding: 10px;
+      line-height: 200%;
+      /*transform: rotate(-10deg);*/
+  }
+
+  #aboutme .skills {
+      background-color: #d5e1df; 
+      background: linear-gradient(to left, #d5e1df, white);
+  }
+  #aboutme .skills h3 {
+      word-spacing: 20%;
+      letter-spacing: 2px;
+      padding: 20px;
+      /*transform: rotate(10deg);*/
+      line-height: 450%;
+  }
+ 
+/*********work**********/
+#work {
+    clear: both;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#work .half-width {
+    margin-top: 20px;
+    
+}
+
+#work img {
+    padding:15px;
+    height: 90%;
+    width: 90%;
+}
+
+#work .project1 {
+    background-color: #b5e7a0;
+}
+#work .project2 {
+    background-color: #e3eaa7;
+}
+#work .project3 {
+    background-color: #d5e1df;
+    margin-top: -50px;
+}
+#work .project4 {
+    background-color: #86af49;
+    
+}
+ /*********footer*******/
+ footer {
+    clear: both;
+     
+ }
+
+ footer .fourth-width {
+    margin-top: 30px;
+    text-align: center;
+    height:200px;
+ }
+
+ footer img {
+    height: 70%;
+    width: 70%;
+    display: block;
+    margin: auto;
+ }
+
+ footer h4 {
+
+ }

@@ -1,0 +1,148 @@
+
+
+
+/* header*/
+.header{
+ font-family: Verdana;
+ font-size: 14px;
+ font-weight: bold;
+ display: flex;
+ align-items: center;
+}
+.logo{
+  display: flex;
+  color: MediumAquamarine;
+  width: 50%;
+}
+nav{
+  display: inline-block;
+
+}
+Span{
+  margin-left: 20px;
+  text-decoration: underline;
+}
+/*Main Container*/
+
+/* Preparation border*/
+.container, .left_column, .middle_column, .right_column, p, h1, h2{
+  /*border: 1px solid blue;*/
+  margin: 10px 10px;
+}
+.container{
+  display: flex;
+  flex-basis: 1200px;
+}
+.left_column{
+  display: flex;
+  flex-direction: column;
+  width: 630px;
+}
+.main_article_2{
+  display: inline-flex;
+}
+
+.middle_column{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.right_column{
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+}
+#main_article{
+  background-image: url("../images/img-story-main.png");
+  font-family: Georgia;
+ font-weight: bold;
+ font-size: 40px;
+ color: white;
+height:  300px;
+}
+.articles{
+
+}
+
+p{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+#photo_comment_1, #photo_comment_2, #photo_comment_3{
+  font-family: Georgia;
+ font-weight: bold;
+ font-size: 30px;
+ color: white;
+ height: 300px;
+}
+#photo_comment_2{
+  background-image: url("../images/img-story-2.png");
+}
+#photo_comment_3{
+  background-image: url("../images/img-story-3.png");
+}
+#photo_comment_1{
+  background-image: url("../images/img-story-1.png");
+}
+td{
+  font-size: 16px;
+  font-weight: bold;
+  background-color: WhiteSmoke;
+ font-family: Verdana;
+ font-size: 12px;
+ color: DimGray;
+ border-top: 1px solid black;
+ padding: 10px 10px;
+ border-collapse: collapse;
+}
+.footer{
+  display: flex;
+  width: auto;
+  align-items: center; /*up-down center*/
+  justify-content: center;/*right-left center*/
+
+  background-color: MediumAquamarine;
+  margin: auto
+  font-family: Verdana;
+  font-size: 12px;
+  height: 200px;
+  flex-direction: column;
+
+}
+.footer span{
+
+  margin-left: 30px;
+  text-decoration: underline;
+}
+.footer-myt{
+  font-family: Georgia;
+font-size: 16px;
+font-weight: bold;
+color: white;
+display: inline;
+
+
+}
+.firstline{
+flex-direction: row;
+}
+.copyright{
+
+  font-family: Verdana;
+  font-size: 12px;
+
+}
+@media only screen and (max-width: 470px) {
+
+  body {
+    max-width:400px;
+  }
+  .container, .main_article_1, .main_article_2{
+    display: block;
+    max-width: 400px;
+  }
+  .right_column, left_column, middle_column {
+    display: block;
+  }
+}
